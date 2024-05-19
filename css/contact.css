@@ -1,0 +1,43 @@
+body {
+  background-color: lightskyblue;
+}
+
+.form {
+  width: 75rem;
+}
+
+.submit-button {
+  width: 36rem;
+  transition: 0.5s;
+  color: white;
+  border: 2px solid white;
+  margin-top: 1rem;
+}
+
+.submit-button:hover {
+  letter-spacing: 1px;
+  background: var(--clr);
+  box-shadow: 0 0 35px var(--clr);
+}
+
+.submit-button span {
+  z-index: 1;
+}
+
+.back-button {
+  width: 36rem;
+  transition: 0.5s;
+  color: white;
+  border: 2px solid white;
+  margin-top: 1rem;
+}
+
+.back-button:hover {
+  letter-spacing: 1px;
+  background: var(--clr);
+  box-shadow: 0 0 35px var(--clr);
+}
+
+.back-button span {
+  z-index: 1;
+}
